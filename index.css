@@ -17,3 +17,127 @@ img{
     display: block;
     width: 100%;
 }
+
+/* === Base Reset === */
+/* === Header === */
+header {
+ 
+}
+
+.header__logo {
+  
+}
+
+.header__logo--highlight {
+  
+}
+
+/* === Navigation === */
+.nav__list {
+  
+}
+
+.nav__link {
+  
+}
+
+.nav__link:hover {
+  
+}
+
+/* === Contacts === */
+.contacts__list {
+  
+}
+
+.contacts__link {
+  
+}
+
+.contacts__link:hover {
+  
+}
+
+/* === Hero Section === */
+.hero {
+  
+}
+
+.hero__title {
+  
+}
+
+.button {
+  
+}
+
+.button--primary {
+  
+}
+
+.button--primary:hover {
+  
+}
+
+/* === Features Section === */
+.features {
+  
+}
+
+.features__list {
+  
+}
+
+.features__title {
+  
+}
+
+.features__text {
+  
+}
+
+/* === Team Section === */
+.team {
+  
+}
+
+.team__title {
+  
+}
+
+.team__list {
+  
+}
+
+.team__member {
+  
+}
+
+.team__photo {
+ 
+}
+
+.team__name {
+  
+}
+
+.team__position {
+  
+}
+
+/* === Footer === */
+.footer {
+  
+}
+
+.footer__logo {
+  
+}
+
+.footer__logo--highlight {
+  
+}
+
+.footer__text {
+  
+}
