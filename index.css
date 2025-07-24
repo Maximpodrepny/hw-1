@@ -21,7 +21,10 @@ img{
 /* === Base Reset === */
 /* === Header === */
 header {
- 
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ align-items: center;
 }
 
 .header__logo {
@@ -34,7 +37,7 @@ header {
 
 /* === Navigation === */
 .nav__list {
-  
+  display: flex;
 }
 
 .nav__link {
