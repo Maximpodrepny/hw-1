@@ -28,7 +28,15 @@ header {
 }
 
 .header__logo {
-  
+  font-weight: 700;
+  font-style: bold;
+  font-size: 18px;
+  leading-trim: none;
+  line-height: 21px;
+  letter-spacing: 3%;
+  vertical-align: middle;
+  text-transform: uppercase;
+  font-family: raleway
 }
 
 .header__logo--highlight {
@@ -38,6 +46,13 @@ header {
 /* === Navigation === */
 .nav__list {
   display: flex;
+  gap: 40px
+  font-weight 500px
+  font-medium
+  font-syze
+  leading-tream
+  line-height
+  letter spacing
 }
 
 .nav__link {
@@ -143,4 +158,29 @@ header {
 
 .footer__text {
   
+}
+.header__adress {
+display: flex;
+gap: 40px;    
+} 
+
+.header__logo-color {
+    color:blue
+}
+
+.adress_list {
+    display: flex;
+    gap: 40px;
+}
+
+.general_title {
+    color overscroll-behavior-block: ;
+    font-weight: 700;
+    font-size: ; 56px
+    line height: 60px
+    letter-spacing: 2%;;
+}
+
+.gereral_button {
+    padding: 16px 32px
 }
