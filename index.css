@@ -31,7 +31,6 @@ header {
   font-weight: 700;
   font-style: bold;
   font-size: 18px;
-  leading-trim: none;
   line-height: 21px;
   letter-spacing: 3%;
   vertical-align: middle;
@@ -44,15 +43,9 @@ header {
 }
 
 /* === Navigation === */
-.nav__list {
+.nspacingav__list {
   display: flex;
-  gap: 40px
-  font-weight 500px
-  font-medium
-  font-syze
-  leading-tream
-  line-height
-  letter spacing
+  gap: 40px;
 }
 
 .nav__link {
@@ -174,13 +167,13 @@ gap: 40px;
 }
 
 .general_title {
-    color overscroll-behavior-block: ;
+    color :#FFFFFF;
     font-weight: 700;
-    font-size: ; 56px
-    line height: 60px
-    letter-spacing: 2%;;
+    font-size: 56px;
+    line-height: 60px;
+    letter-spacing: 2%;
 }
 
 .gereral_button {
-    padding: 16px 32px
+    padding: 16px 32px;
 }
