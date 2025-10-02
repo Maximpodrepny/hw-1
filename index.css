@@ -3,6 +3,7 @@ body {
     color: 434455;
     font-family: Roboto, sans-serif;
     font-weight: 400;
+    margin: 0;
 }
 
 a{
@@ -26,7 +27,15 @@ header {
  justify-content: space-between;
  align-items: center;
 }
-
+.header_box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 156px;
+    min-height: 72px;
+    margin: 156px 156px;
+}
 .header__logo {
   font-weight: 700;
   font-style: bold;
@@ -50,6 +59,10 @@ header {
 
 .nav__link {
   
+}
+.nav__list {
+    display: flex;
+    gap: 40px;
 }
 
 .nav__link:hover {
@@ -176,4 +189,16 @@ gap: 40px;
 
 .gereral_button {
     padding: 16px 32px;
+}
+.adress_list {
+    display: flex;
+    gap: 40px;
+}
+.all_logo {
+    color:   blue    ;
+    font-weight: 700;
+    font-size: 18px;
+    line-break: 21px;
+    letter-spacing: 3%;
+    text-transform: uppercase;      
 }
