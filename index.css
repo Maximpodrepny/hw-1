@@ -1,204 +1,214 @@
 body {
-    background-color: floralwhite;
-    color: 434455;
-    font-family: Roboto, sans-serif;
-    font-weight: 400;
-    margin: 0;
+  background-color: #ffff;
+  color: 434455;
+  font-family: Roboto, sans-serif;
+  font-weight: 400;
+  margin: 0;
 }
 
-a{
-    text-decoration: none;
+a {
+  text-decoration: none;
 }
 
-ul{
-    list-style-type: none;
+ul {
+  list-style-type: none;
 }
 
-img{
-    display: block;
-    width: 100%;
+img {
+  display: block;
+  width: 100%;
 }
 
-/* === Base Reset === */
-/* === Header === */
-header {
- display: flex;
- flex-direction: row;
- justify-content: space-between;
- align-items: center;
+button {
+  border: none;
+  display: block;
 }
-.header_box{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0px 156px;
-    min-height: 72px;
-    margin: 156px 156px;
+
+.header_box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 156px;
+  min-height: 72px;
 }
+
 .header__logo {
+  color: #2e2f42;
+}
+
+.logo--highlight {
+  color: #4d5ae5;
+}
+
+.all_logo {
   font-weight: 700;
-  font-style: bold;
   font-size: 18px;
   line-height: 21px;
-  letter-spacing: 3%;
-  vertical-align: middle;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
-  font-family: raleway
-}
-
-.header__logo--highlight {
-  
+  font-family: Raleway;
 }
 
 /* === Navigation === */
-.nspacingav__list {
+.nav__list {
   display: flex;
   gap: 40px;
 }
 
 .nav__link {
-  
-}
-.nav__list {
-    display: flex;
-    gap: 40px;
-}
-
-.nav__link:hover {
-  
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
 }
 
 /* === Contacts === */
 .contacts__list {
-  
+  display: flex;
+  gap: 40px;
 }
 
 .contacts__link {
-  
-}
-
-.contacts__link:hover {
-  
+  color: #434455;
+  font-style: Regular;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
 }
 
 /* === Hero Section === */
 .hero {
-  
+  background-color: #2e2f42;
+  min-width: 1128px;
+  padding: 188px 156px;
+}
+
+.hero_container {
+  max-width: 496px;
+  margin: 0 auto;
 }
 
 .hero__title {
-  
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 
 .button {
-  
+  margin: 0 auto;
+  padding: 16px 32px;
+  background-color: #4d5ae5;
+  border-radius: 4px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
 }
 
-.button--primary {
-  
-}
-
-.button--primary:hover {
-  
-}
-
-/* === Features Section === */
 .features {
-  
+  padding: 120px 156px;
 }
 
 .features__list {
-  
+  display: flex;
+  gap: 24px;
+  padding: 0px;
+}
+
+.features__item {
+  min-width: 264px;
+  min-height: 104px;
 }
 
 .features__title {
-  
+  margin: 0 0 8px 0;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
 }
 
 .features__text {
-  
+  margin: 0;
+  line-height: 24px;
+  letter-spacing: 0.02em;
 }
 
 /* === Team Section === */
 .team {
-  
+  background-color: #f4f4fd;
+  padding: 120px 156px;
+  text-align: center;
 }
 
 .team__title {
-  
+  margin-bottom: 72px;
+  font-weight: 700;
+  font-style: Bold;
+  font-size: 36px;
+  line-height: 40px;
+  letter-spacing: 0.02%;
+  text-align: center;
 }
 
 .team__list {
-  
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
 }
 
 .team__member {
-  
-}
-
-.team__photo {
- 
+  max-width: 264px;
+  max-height: 380px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  box-shadow: 0px 2px 1px 0px #2e2f4214;
+  box-shadow: 0px 1px 1px 0px #2e2f4229;
+  box-shadow: 0px 1px 6px 0px #2e2f4214;
 }
 
 .team__name {
-  
+  font-weight: 500;
+  font-size: 20px;
+  margin: 20px 0 0 0;
+  line-height: 24px;
+  letter-spacing: 0.02%;
+  text-align: center;
 }
 
 .team__position {
-  
+  margin: 8px 0 38px 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02%;
+  text-align: center;
+  color: #434455;
 }
 
 /* === Footer === */
 .footer {
-  
+  background-color: #2e2f42;
+  padding: 100px 156px;
 }
 
 .footer__logo {
-  
+  color: #ffff;
 }
 
-.footer__logo--highlight {
-  
+.footer_container {
+  max-width: 264px;
 }
 
 .footer__text {
-  
-}
-.header__adress {
-display: flex;
-gap: 40px;    
-} 
-
-.header__logo-color {
-    color:blue
-}
-
-.adress_list {
-    display: flex;
-    gap: 40px;
-}
-
-.general_title {
-    color :#FFFFFF;
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 60px;
-    letter-spacing: 2%;
-}
-
-.gereral_button {
-    padding: 16px 32px;
-}
-.adress_list {
-    display: flex;
-    gap: 40px;
-}
-.all_logo {
-    color:   blue    ;
-    font-weight: 700;
-    font-size: 18px;
-    line-break: 21px;
-    letter-spacing: 3%;
-    text-transform: uppercase;      
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02%;
+  color: #f4f4fd;
 }
